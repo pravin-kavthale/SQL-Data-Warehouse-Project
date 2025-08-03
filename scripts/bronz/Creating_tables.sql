@@ -37,7 +37,7 @@ CREATE TABLE bronz.Crm_cust_info (
     cst_lastname VARCHAR(50),
     cast_marital_status NVARCHAR(50),
     cst_gndr NVARCHAR(50),
-    cst_create_dat DATE
+    cst_create_date DATE
 );
 
 -- Drop and create CRM product info table
