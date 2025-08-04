@@ -15,7 +15,7 @@ The core goal is to simulate how data engineers and analysts work with structure
 ## 🧠 Key Architecture
 
 ### 1. Modern Data Warehouse Architecture
-![Modern Data Warehouse Architecture](./images/modern_architecture.png)
+![Modern Data Warehouse Architecture](./docs/data_architecture.png)
 - Raw data from CRM and ERP systems is ingested into the **Bronze Layer**
 - Transformed and cleansed in the **Silver Layer**
 - Aggregated and business-ready in the **Gold Layer**
