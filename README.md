@@ -56,6 +56,16 @@ The core goal is to simulate how data engineers and analysts work with structure
 
 ---
 
+## 📂 Folder Structure Summary
+
+datasets/ # Raw and cleaned data files
+scripts/ # SQL scripts for DDL and ETL
+tests/ # Test scripts and validation queries
+docs/ # Architecture diagrams, conventions, metadata
+README.md # Project intro and instructions
+
+---
+
 ## ✅ Requirements
 
 To run or explore this project, you'll need the following:
@@ -81,6 +91,29 @@ To run or explore this project, you'll need the following:
 
 ---
 
+## 🗂️ Additional Documentation
+
+### 📊 Layered Design PDF
+📎 [View PDF](./docs/data_layers.pdf)
+
+---
+
+### 📚 Naming Conventions
+
+To maintain consistency across schema objects, the following naming conventions are followed:
+
+🔗 [Naming Conventions Documentation](./docs/naming_conventions.md)
+
+---
+
+### 🧾 Data Catalog
+
+Includes metadata and descriptions of tables, columns, and business definitions.
+
+🔗 [Data Catalog](./docs/data_catalog.md)
+
+---
+
 ## 👤 About Me
 
 Hi! I’m a final year student of B.E. in Artificial Intelligence and Data Science.  
@@ -94,4 +127,3 @@ This is one of my academic and skill-building projects in **Data Engineering** a
 ---
 
 > ⭐ If you like this project or found it useful, feel free to **star the repo** and share feedback!
-
