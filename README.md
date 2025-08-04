@@ -45,7 +45,7 @@ The core goal is to simulate how data engineers and analysts work with structure
 ---
 
 ### 5. Star Schema Design (Fact & Dimension)
-![Star Schema ER Diagram](./images/star_schema.png)
+![Star Schema ER Diagram](./docs/star_schema.png)
 - This is the final data model in the **Gold Layer**
 - Consists of:
   - `dim_customers`
