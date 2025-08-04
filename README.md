@@ -12,6 +12,7 @@ The core goal is to simulate how data engineers and analysts work with structure
 
 ---
 
+
 ## 🧠 Key Architecture
 
 ### 1. Modern Data Warehouse Architecture
@@ -30,10 +31,16 @@ The core goal is to simulate how data engineers and analysts work with structure
 
 ---
 
-### 3. Source System Schema
-![CRM & ERP Schema](./images/source_schema.png)
-- Shows how **CRM and ERP** systems hold customer, sales, and product info
-- Helps you understand the relationship between source tables
+### 3. Star Schema Design (Fact & Dimension)
+![Star Schema ER Diagram](./images/star_schema.png)
+- This is the final data model in the **Gold Layer**
+- Consists of:
+  - `dim_customers`
+  - `dim_products`
+  - `fact_sales`
+- Enables fast and flexible analytics with calculated metrics like:
+  - **Sales Amount = Quantity × Price**
+
 
 
 ---
