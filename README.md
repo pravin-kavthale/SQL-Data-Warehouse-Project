@@ -1,15 +1,58 @@
-
 # 📦 Welcome to the Sales Data Warehouse Project!
 
-Welcome to my beginner-friendly Data Warehouse project! This project is designed to help understand the fundamentals of data warehousing through a real-world sales analytics use case.
+Welcome to my beginner-friendly Data Warehouse project! This project is designed to help understand the fundamentals of data warehousing through a real-world **sales analytics use case**.
 
 ---
 
 ## 📘 About the Project
 
-This project builds a **Sales Data Warehouse** for an online retail store using a star schema design. It demonstrates the ETL (Extract, Transform, Load) process, dimensional modeling, SQL-based data analysis, and reporting through tools like Power BI or Excel.
+This project builds a **Sales Data Warehouse** for an online retail store using a **Star Schema** design. It demonstrates the **ETL (Extract, Transform, Load)** process, dimensional modeling, SQL-based data analysis, and reporting through tools like **Power BI** or **Excel**.
 
-The core goal is to simulate how data engineers and analysts work with structured data in enterprise environments for business intelligence.
+The core goal is to simulate how data engineers and analysts work with structured data in enterprise environments for **Business Intelligence**.
+
+---
+
+## 🧠 Key Architecture
+
+### 1. Modern Data Warehouse Architecture
+![Modern Data Warehouse Architecture](./images/modern_architecture.png)
+- Raw data from CRM and ERP systems is ingested into the **Bronze Layer**
+- Transformed and cleansed in the **Silver Layer**
+- Aggregated and business-ready in the **Gold Layer**
+- Final outputs are used for **BI tools**, **SQL queries**, and **ML models**
+
+---
+
+### 2. ETL Process Breakdown
+![ETL Process Diagram](./images/etl_process.png)
+- Covers **Extraction Techniques** (pull/push), **Transformation** (cleansing, enrichment), and **Loading Strategies** (SCDs, batch vs. stream)
+- Helps you understand data pipelines in a professional setting
+
+---
+
+### 3. Table Lineage Across Layers
+![Bronze to Gold Layer Mapping](./images/layer_mapping.png)
+- Visual representation of how tables move from **Bronze ➝ Silver ➝ Gold**
+- Tracks each table’s transformation lifecycle
+
+---
+
+### 4. Source System Schema
+![CRM & ERP Schema](./images/source_schema.png)
+- Shows how **CRM and ERP** systems hold customer, sales, and product info
+- Helps you understand the relationship between source tables
+
+---
+
+### 5. Star Schema Design (Fact & Dimension)
+![Star Schema ER Diagram](./images/star_schema.png)
+- This is the final data model in the **Gold Layer**
+- Consists of:
+  - `dim_customers`
+  - `dim_products`
+  - `fact_sales`
+- Enables fast and flexible analytics with calculated metrics like:
+  - **Sales Amount = Quantity × Price**
 
 ---
 
@@ -18,36 +61,37 @@ The core goal is to simulate how data engineers and analysts work with structure
 To run or explore this project, you'll need the following:
 
 - Python 3.8+
-- Sql Server
-- pandas (for data cleaning)
-- psycopg2 (for database connection)
+- SQL Server
+- `pandas` for data processing
+- `psycopg2` or `pyodbc` for DB connectivity
 - Jupyter Notebook or VS Code (optional)
-- Power BI / Tableau / Excel (for visualization)
+- Power BI / Tableau / Excel for visualization
 - Git (to clone this repo)
 
 ---
 
 ## 🎯 Objectives
 
-- Understand the fundamentals of data warehousing
-- Build a star schema (Fact + Dimension tables)
-- Perform ETL using Python
-- Load structured data into a relational database
-- Write OLAP-style SQL queries for reporting
-- Create visual dashboards using BI tools
+- Understand the fundamentals of data warehousing  
+- Build a **star schema** (Fact + Dimension tables)  
+- Perform **ETL** using Python  
+- Load structured data into a relational database  
+- Write **OLAP-style SQL queries** for reporting  
+- Create **visual dashboards** using BI tools  
 
 ---
 
 ## 👤 About Me
 
 Hi! I’m a final year student of B.E. in Artificial Intelligence and Data Science.  
-This is one of my academic and skill-building projects in Data Engineering and Business Intelligence.
+This is one of my academic and skill-building projects in **Data Engineering** and **Business Intelligence**.
 
-📧 Feel free to connect or reach out:
-- LinkedIn: [https://www.linkedin.com/in/pravin-kawthale-ba9787337/]
-- GitHub: [https://github.com/pravin-kavthale]
-- Email: [kavthalepravin@gmail.com]
+📧 Feel free to connect or reach out:  
+- [LinkedIn](https://www.linkedin.com/in/pravin-kawthale-ba9787337/)  
+- [GitHub](https://github.com/pravin-kavthale)  
+- [Email](mailto:kavthalepravin@gmail.com)
 
 ---
 
-> ⭐ If you like this project or found it useful, feel free to star the repo and share feedback!
+> ⭐ If you like this project or found it useful, feel free to **star the repo** and share feedback!
+
