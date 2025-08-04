@@ -23,36 +23,18 @@ The core goal is to simulate how data engineers and analysts work with structure
 
 ---
 
-### 2. ETL Process Breakdown
-![ETL Process Diagram](./images/etl_process.png)
-- Covers **Extraction Techniques** (pull/push), **Transformation** (cleansing, enrichment), and **Loading Strategies** (SCDs, batch vs. stream)
-- Helps you understand data pipelines in a professional setting
-
----
-
-### 3. Table Lineage Across Layers
-![Bronze to Gold Layer Mapping](./images/layer_mapping.png)
+### 2. Table Lineage Across Layers
+![Bronze to Gold Layer Mapping](./docs/data_flow.png)
 - Visual representation of how tables move from **Bronze ➝ Silver ➝ Gold**
 - Tracks each table’s transformation lifecycle
 
 ---
 
-### 4. Source System Schema
+### 3. Source System Schema
 ![CRM & ERP Schema](./images/source_schema.png)
 - Shows how **CRM and ERP** systems hold customer, sales, and product info
 - Helps you understand the relationship between source tables
 
----
-
-### 5. Star Schema Design (Fact & Dimension)
-![Star Schema ER Diagram](./docs/star_schema.png)
-- This is the final data model in the **Gold Layer**
-- Consists of:
-  - `dim_customers`
-  - `dim_products`
-  - `fact_sales`
-- Enables fast and flexible analytics with calculated metrics like:
-  - **Sales Amount = Quantity × Price**
 
 ---
 
